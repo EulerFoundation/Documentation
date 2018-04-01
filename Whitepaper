@@ -1,0 +1,390 @@
+Abstract
+ 
+When we set out to create the best possible decentralized platform, drawing from years of experience in security and technology integration, we envisioned and constructed a ground breaking infrastructure that avoids the inherent limitations of a traditional blockchain - boasting new levels of security, speed and scalability in the design of Newton and it’s foundation - the Stackchain.
+ 
+We propose a set of new and innovative features that enhances the security, performance and scalability of the infrastructure. As a result, the Newton Platform and the Stackchain technology are a major leap forward in building decentralized trust-less systems.
+ 
+
+ 
+
+
+
+
+Introduction
+ 
+Governments have set protocols and boundaries to protect its constituents and their assets, to establish and verify identities and chronicle events, to govern interactions among nations, organizations, communities, and individuals in business and in social action. This is achieved in the case of contracts, transactions, and the records of them are among the defining structures in our economic, legal, and political systems. The problem is, these critical tools and the bureaucracies formed to manage them, have not kept up with the pace of technology.
+
+Basic system design 101, start with the business requirements and then select appropriate technologies to meet these requirements, if it ends up to be a bitcoin blockchain, no problem go for it.. 
+
+But it is bizarre to start with a set of technologies designed for a specific purpose (censorship resistant virtual currency)  and then look at how one might wedge it into an enterprise..
+
+
+We propose the Newton Platform as a solution to these issues, a new robust decentralized trustless platform that provides a multitude of technological advancements in tandem with the Stackchain Infrastructure.
+
+Every agreement, every process, every task, and every payment will have a digital record and signature that can be identified, validated, stored, and shared in the Newton Platform. Individuals, organizations, machines, and algorithms are able to freely transact and interact with one another with little friction and in complete anonymity (or) choose to use real-world compliance and integrate intermediaries such as lawyers, brokers, bankers and regulatory authorities where they can act upon this information and provide governance when needed.
+
+This white paper provides in-depth information about the Stackchain technology and the Newton platform built on top of it, including technical specifications and achievable opportunities using this new architecture.
+
+ 
+
+Challenge
+ 
+Blockchain was intended to address these issues. The technology at the heart of crypto-currencies is an open distributed ledger that can record transactions between two parties efficiently, and in a verifiable and permanent way. However, there are many inherent and limitations that the Blockchain architecture posses such as, but not limited to; Scalability, Performance and Redundancy.
+
+
+ 
+
+Stackchain
+ 
+Satoshi Nakamoto’s vision and initial design of Bitcoin was intended to serve as an electronic cash system. Although the applications of a blockchain are immense in theory, the original implementation was, and still is, not enterprise aware. Many teams have introduced newer iterations that promised seamless enterprise integration, but failed due to the lack of elements that addresses real-world challenges and requirements.
+
+We believe that  the correct approach is to design a new system adoptable by everyone including individuals, enterprises and governments, that can take place in one of two forms:
+
+1- An Exclusive System: Based on specific needs and requirements of an entity that will utilize the system while addressing strict user case defined by that entity.
+
+2- A Generic System: That adopts well known and proven to work methods and standards that comply with most if not all entities, while being forward-compatible by allowing further customizations to suit various user cases.
+ 
+The Stackchain is a Broad (Generic) Technology that is designed to be a forward-compatible infrastructure that incorporates information technology standards that are generally accepted worldwide. Allowing it to be an idle solution for any system design or integration in need of a decentralized structure. 
+
+
+
+
+
+
+
+
+
+The Five Stacks
+
+INTRO
+
+
+
+
+
+The Stackchain is designed to accommodate five different types or classifications of data (using headers), arranged in different stacks hereon referred to as PNCLS:
+
+1.       Process Stack:
+
+
+
+Data classified as part of the Process stack includes:
+
+Timestamps: A timestamp is the time at which an event is recorded by a computer, not the time of the event itself. It is based on ISO 8601. eg. [2018-03-23T01:58:51+00:00].
+
+Events: An event is a record of a task or operation’s occurrence on the network. It includes the type of event and a reference to it’s serial/ID. eg. [cn9418472 initiated at 2018-03-23T01:58:51+00:00] 
+
+Tasks: Any command that is part of an event or contract scheduled to take place. This may include invocation of a program, resource or operation using resources allocated to the network.
+
+Objects: This describes entities on the network, including nodes, peers, users and resources. eg. A storage resource at a specific user’s device. [un9415187 st05]
+
+
+2.       Network Stack:
+
+FIGURE PLACEHOLDER
+
+Data classified as part of the Network stack includes:
+
+Query Paths: Includes defined of paths between sources and destinations of events, tasks, operations, contracts and their participants.
+
+Threads: It sorts different instances of tasks that are processes on different devices, therefore allowing parallelism to improve execution of these tasks without duplication. eg. If a task is using one instance for storage at a user’s device and three instances of processing on another user’s device plus storage; this is represented below.
+[tk987982379 un237652:st03 un8723421:CPU04:CPU05:CPU06:st05]
+ 
+Trackers: Are track records of objects joining and leaving the network allowing tools on the network to interpret the availability of different devices and resources.
+
+Messages: Represents network messages sent across the network which are often created with character substitutions. They serve as a generic notification layer on the network.
+
+3.       Compliance Stack
+
+FIGURE PLACEHOLDER
+
+Terms: It defines rules that an entity on the network must agree to abide to, in order to use a service or participate in an event as part of a contract. 
+
+Timelines: Time limits that contracts and events abide by - creating schedules and specific timeframes for tasks and events to take place.
+
+Digital IDs: Digital Identifications tied to entities on the Stackchain. This initially only includes a public key that is stored once an account is created but is extendable to store further identification parameters and inputs.
+
+Certifications: Also referred to as ‘attestations’, that serves the purpose of storing attestations by regulatory authorities on digital identifications and contracts.
+Permissions: This stores the privacy configurations of an entity’s account on the Stackchain. It is different that Contract Permissions as those are defined in Terms.
+
+
+4.       Ledger Stack
+
+FIGURE PLACEHOLDER
+
+Accounts: Unique account numbers that are tied to Digital IDs and their public keys.
+
+Contracts: All contracts created on the network, including but not limited to payments, subscriptions, SLAs etc. 
+
+Balances: Monetary account balances available for each entity.
+
+Transactions: All transactions executed on the network, including monetary value, parties involved & event IDs.
+
+
+5.       Storage Stack
+ 
+FIGURE PLACEHOLDER
+
+Raw Data: Includes descriptions added to tasks added to contracts. This can include Specific T&C, Disclaimers or simple explanations of the purpose off the contract.
+
+
+Documents: Includes any official certified documents on the network, tied to an attester and owner.
+
+
+STORYLINE Explanation
+
+Stackchain FIGURATIVE Storyline
+
+
+
+Storage
+ 
+Introducing Motion Database (MDB)
+ 
+From IoT devices to financial infrastructure to social networks, we are constantly flooded with data. Many of these real-world networks are large and dynamic, expanding and evolving over time. Their evolution can be modelled as a series of graphs. Traditional blockchain systems that use key-value stores, or store and analyse one graph at a time, cannot effectively handle the complexity and subtlety inherent in dynamic graphs.
+
+Modern big data and analytic systems require storage technologies capable of storing and processing series of graphs. 
+
+We present such a system.
+ 
+Motion is a decentralized fault tolerant graph database.
+It enables transactional graph analyses as well as serializable *(define)ACID transactions. Motion provides strict serializability with high performance and horizontal scalability by using a unique mechanism called distilled timestamps. This technique couples granular vector timestamps with a fine timeline oracle to provide strong consistency only when needed.
+ 
+At a high level, distilled timestamps achieves a serializable order of transaction execution in two different stages:
+ 
+●      First Stage: We assign a timestamp to the transaction. Any node on the network that receives the transaction from a client will assign it without assistance of other nodes. This further enhances scalability by not having to coordinate local timestamping. However, those timestamps are imprecise and cannot account for the total transactional order on the network..
+
+
+●      Second Stage:  We resolve any conflicts that may have risen out of imprecise timestamping. This stage is heavier but achieves a precise ordering of transactions.
+ 
+Motion resorts to the second stage for a small number of transactions only, i.e. those that are concurrent and overlap in their read/write sets. The key benefit of using distilled timestamps, compared to traditional locking techniques, is reduced coordination. The proactive stage is lightweight and scalable and has a very small footprint on transaction processing. The heavier cost is realized only when resorting to the second stage to resolve conflicts between timestamped operations. Thus, distilled timestamps avoid coordinating non-overlapping operations. This benefit is even more critical for a graph database because of the characteristics of graph analysis queries: long execution time and large read set. Distilled timestamps execute such large-scale reads without blocking concurrent, conflicting transactions, therefore providing a much faster process than regular graphs.
+
+ 
+
+Key Features of Motion:
+ 
+●      ACID Compliant
+●      Rich Query
+●      distilled timestamps
+●      Time Travel
+●      Immutable, Tamper Resistant
+●      Horizontally Scalable and Fast
+●      Active Sharding
+●      Decentralized (Zero Management Overhead)
+ 
+System Architecture
+
+Motion implements distilled timestamps using a timeline coordinator, shard nodes and the AI from Newton, responsible for failure detection and system reconfiguration on nodes to achieve a fully scalable decentralized structure.
+
+
+
+
+Shard Nodes: Motion uses Active Sharding to distribute the graph by partitioning it into smaller pieces which gets stored in memory on a shard node. This sharding enables both memory storage capacity and query throughput to scale as nodes are added to the Stackchain. Each partition contains  set of vertices, all outgoing edges rooted at those vertices, and associate attributes. Transactional operations on that graph partition are the responsibility of the host Shard Node.
+ 
+Timeline Coordinators: This coordinator consists of AI-configured gatekeeper nodes for granular timestamp-based ordering, and a “timeline oracle” for distilling any conflicting timestamps when necessary. In addition to assigning timestamps to transactions, the gatekeepers also commit transactional updates to the Back Store.
+ 
+Newton AI: Motion makes use of the Newton AI process (part of The Newton Platform), for failure detection and system re-configuration. The AI keeps track of all nodes that are currently part of the Stackchain. When a node boots up, it registers its presence with the AI and then regularly sends heartbeat messages to close-by nodes. If the AI detects that a node has failed, it re-configures the storage and query paths according to Motion’s fault tolerance scheme.
+
+Active Sharding: Needs new chart and explanation
+ 
+Back Store: The back store is a key-value store that supports ACID transactions and have two tasks. First, it stores the graph data as per Motion’s fault tolerance scheme. When a shard node fails, the graph data belonging to it is recovered from the back store. Second, the back store directs transactions on a vertex to the shard node, responsible for that vertex by storing a mapping from vertices to associated shard node. It provides direction to operations on vertices as it stores a map of pathways between vertices and shard nodes.
+ 
+Motion compresses dynamic graph data, based on commonalities among the graphs in the series for duplicated storage on multiple nodes. In addition to huge space-savings, large-scale graph processing tends to be I/O bound, so faster reads ‘from’ and writes ‘to’ stable storage enable faster results. Unlike other RBMS, NoSql systems and mainstream Graph Systems, Motion uses distributed operators to execute and process complex queries on large graphs in parallel. By processing graph commonalities only once, and sharing the results across relevant graphs. This further enhances Motion’s scalability exponentially.
+ 
+Additional optimization to the database is accomplished through Iterator Trees. By extending the traditional log-structured merge-tree model and adding a system iterator layer, that not only provides basic operations like edit or delete, but adds an application specific processing layer -  allowing further filtering. i.e. inserting one key with two different values, then choosing whether to keep the most recent entry, keep all versions of values or keep values for the last 90 days.
+ 
+
+
+
+Further optimization will be implemented through controlling the compaction thus improving overall reads and writes.
+ 
+Motion is Immutable. This allows decentralized applications to guarantee data integrity. Also, by separating query from the Stackchain transactor; it allows the creation of enterprise-grade applications that are scalable without compromising security or query latency.
+ 
+
+ 
+Scalability
+ 
+The Stackchain provides a scalable technology that distributes all the different stacks among nodes and clients of the network. This provides an ever-expanding infrastructure that not only adapts to the current size of the network Autonomically (via Newton’s AI process) but increase in terms of performance as more users join the network.
+
+
+
+Scalability is achieved via stages as indicated in the chart below.
+
+
+
+Stage one: 
+Scaling is achieved at this level via processing five different categories/types of data instead of a single data type.
+Those data types are processed in parallel as you can request information from any stack concurrently.
+Proofs on all stacks are computed in parallel, each on its own, then consolidated via PoG.
+
+Stage two:
+At the core of Motion DB’s design, is its scalability - this allows the database to scale horizontally via sharding and distilled timestamps that eliminates locking and allows concurrent operations on the same data set.
+A node can be a Gatekeeper for another Shard node but not for its own shard (Nodes are double purposed).
+
+Stage three:
+Whenever new nodes join or leave the network, Newton’s AI will monitor and re-configure the sharding ratio within the infrastructure using consistent hashing, while expanding and abbreviating it as needed and in relation to the resources available throughout the network.
+Newton’s AI process will enforce the most efficient path for data queries between all peers and nodes (stored in the back store), similar to DNS servers and routers.     
+
+
+This model allows it to expand horizontally and vertically. Nodes on the network store different pieces of the data store and commit to serving queries related to specific vertices. This structure will scale with more nodes added to the network as The Newton AI actively monitors the network and differs the shards and query paths based on the current state of the Stackchain to achieve the best possible network redundancy and performance.
+ 
+ 
+Security
+ 
+To build the security proofs it is necessary to address four key information security concerns, by establishing key factual elements within the proofs. It is through multiple proofs by which we are able to achieve a very high security standard.
+ 
+Key Information Security Concerns:
+ 
+1. Data Integrity
+In its broadest use, “data integrity” refers to the accuracy and consistency of data stored in Information systems. This demands a ‘proof’ to demonstrate the factual element of “what” data contains.
+ 
+2. Actor Non-Repudiation
+Refers to the author’s inability to successfully repudiate a statement authored by him. The term is often used in a legal setting wherein the authenticity of a signature is being challenged. This demands a ‘proof’ of the factual element of “who” interacted with data.
+ 
+3. Proof of Anteriority 
+Every state of data must be provable with a timestamp. This demands a ‘proof’ to demonstrate the factual element of “when” a state of data has occurred.
+ 
+4. Proof of Context 
+Where a data set belongs relative to the context of all other data, in the sequence of events - must be unquestionably demonstrable. This demands a ‘proof’ to demonstrate the factual element of “where” a data set has been used.
+
+
+We address these concerns in four different steps:
+
+1- Enabling Data Integrity:
+
+We accomplish this through the use of a Cryptographic Digest.
+A user passes a string through a hashing algorithm (SHA-3 Keccak (citation) to generate a digest, that is then saved for the next step in the process. We do not need to know the original string, we will only need the digest. This way a digest is unique to that step in the process. To confirm accuracy of information, the user can hash the original string again to generate a digest that matches the one marking a specific data set, therefore confirming the validity and integrity of ‘what’  is included in that step. (noted in the figure below)
+
+
+
+
+2. Enabling Non-Repudiation:
+
+We use digital signatures in proving that a user cannot repudiate their involvement in an action taken on a data set. This is achieved through requiring the user to digitally sign the digest and store that signature along with the user’s public key in this step. This way we can establish and demonstrate the ‘Who’ behind that step.(noted in the figure below)
+
+
+
+
+3. Enabling Proof of Anteriority
+
+For each step, before signing the digest, the system will include the current time inside the digest. Thus, the user has to sign the digest with the time included just like a signature on a paper document contains the date next to it. The time has to be recorded by Newton’s AI, so we include the signature of the Newton’s AI too. Once both parties sign, we then store the time along with the public key, signature and the digest in the step, all of which can be used to prove the veracity of the signature if challenged. In the absence of a Newton’s AI, the timestamp can be generated locally but has to be signed by the majority of parties involved in the process to get a consensus via Proof of Graph (PoG).
+
+
+
+4. Enabling Contextual Proof
+
+To establish the ‘Where’, or the context of a step relative to the others. We do this by establishing contextual (and cumulative) proof using a hash chain. First, we create another digest for the entire step (the digest, signature, and timestamp, so far), which we can call a link hash. Then we insert that link hash into the following step of the process along with the digests of the other key factual elements. 
+
+
+Summary
+
+PKIs are generated using Supersingular isogeny Diffie–Hellman key exchange (SIDH)
+Hashing is generated through Sha-3 (Keccak)
+Signing is generated through Extended Merkle Trees (XMSS)
+
+
+Consensus
+ 
+The consensus component of the Stackchain plays an essential role in the trust establishment mechanism as it insures the authenticity of data.
+ 
+A proof system enables one party (a ‘prover’) to exchange messages with another party (a ‘verifier’) in order to convince the verifier that the subject of the proof is true — all within the context of a mutually agreed upon source of trust.
+ 
+We enable a proof system that can demonstrate the key factual elements of each step in a process with established facts in a decoupled and modular way. It is possible to create a single proof for each step of the process by consolidating the individual proofs for each of the four information security concerns into a single proof for each step. After a single proof is formed for each step, we then consolidate these again into a single proof for the entire process.
+ 
+Proof of Graph (PoG)
+ 
+We introduce a new cryptographic system, referred to as the ‘Proof of Graph’ (PoG), and construct a practical protocol for implementing multiple proofs. A PoG allows a prover to convince a verifier that they have used *PNCLS (Process - Network - Compliance - Ledger - Storage) resources to perform an action on the Stackchain Infrastructure.
+
+
+ 
+The Proof of Graph provides a multi-dimensional mechanism to build and achieve consensus, eliminating single points of failure, where one proof can be deemed weak in a specific situation the other four proofs concurrently secure and provide proportional consensus on the network.
+ 
+
+The individual proofs forming the PoG are:
+ 
+Proof of Process (PoP)
+ 
+A process is a sequence of steps in which actors perform specific actions at specific times relative to prior steps or, introduce new factual elements and process actors in the sequence.
+ 
+All steps do not require the same set of actors and the interaction between actors can be asynchronous, providing the interactions can be grouped together into sequential steps.
+ 
+Moreover, any step can fork into multiple branches without any need to reconcile them into a single branch. There can be parallel steps in different branches if performed simultaneously. As time always moves in one direction, there can never be circular steps within the same branch.
+
+Examples of processes can be found in almost every human-to-human, human-to-machine and machine-to-machine interaction. Examples include, but are not limited to:
+ 
+Trade and settlement processes
+Software as a Service (SaaS)
+Delivery Services
+Online multiplayer games
+IoT communication
+
+Proof of Network (PoN)
+ 
+Is defined as any node connected to the Stackchain is using their networking layer to maintain a connection with the infrastructure. We use this facility to confirm the connection stability of a node with the rest of the network.
+ 
+Maintaining a session with the Stackchain insures that the node is providing verification and query services to other nodes and clients on the network. In effect, a node’s Proof of Network is derived from the fact that they have provided valid and viable resources to the rest of the network.
+ 
+Some Examples of a verifiable network resources include:
+ 
+Search Queries
+Verification Services
+Data Routing Requests
+Data Transmission
+ 
+
+
+Proof of Compliance (PoC)
+ 
+Compliance is a multifaceted and complex matter. It ensures that the requirements are met in a timely manner and a certain service record in relation to the process handled. Proof of Compliance insures that a node is who it claims to be and that it possesses the actual resources it reported to the network.
+ 
+In practice PoC checks for two unrelated properties, this being:
+The identity of a peer by verifying the digital signature and any other documentation as a requirement for some services using the network.
+The average benchmark of the computational resources allocated to the network, by measuring the reported benchmark by a client versus the actual one perceived by network tasks.
+
+Some examples of compliance include:
+ 
+Registration using a valid digital identification
+Processing of a task at an expected average speed
+Having a valid authorization to use some or all parts of an application or service using the Stackchain.
+ 
+Proof of Ledger (PoL)
+
+Proving the source origin of your monetary balance is essential in many instances. An example would be to transfer a large sum of funds into an account at a traditional financial institution. A Bank will usually ask for two requirements to be fulfilled for this transaction to be approved as follows:
+Identification: By proving your identity, either digitally or in person.
+Source of funds: Solely confirmed when providing access to one’s ledger for verification.
+ 
+PoL is also capable of working inversely. A user can create temporary or permanent access to their ledger by creating a rule that combines both PoL and PoC. This will allow limited access to specific parts of one’s ledger that would otherwise be private.
+ 
+Proof of Storage (PoS)
+
+PoS uses a piece of data that a prover sends to a verifier to validate that the prover has devoted a specific amount of storage space to the network. PoS uses hard-to-pebble graphs (citation). The verifier asks the prover to build a labelling of the hard-to-pebble graph. The prover commits to the labelling. The verifier then asks the prover to open several locations in the commitment.
+ 
+The second layer of the PoS is interconnected with the other proofs of the PoG. To confirm a valid SLA (citation) on the prover’s side, the verifier validates the other proofs in conjunction to the PoS to confirm a well-executed SLA and therefore establishes trust in the prover.
+ 
+
+SUMMARY  
+
+Compliance
+
+
+The Stackchain’s technology addresses the notion of trust through constructs such as immutability, cryptography, distributed databases and contractual agreements. The network design considerations encapsulates industry-specific interaction models including compliance, that forms a solid foundation of building KYC, AML and CTP enabled systems.
+
+The Stackchain’s design incorporates key elements needed to implement enterprise solutions involving value transfer, and uses well established standards that are widely adopted worldwide - some of which are UML and ISO20022.
+
+The Stackchain’s intermediary and trust capabilities will open up the ability to define more flexible and individualized relations between enterprises and clients. This provides some highly desirable features including transparency and the capacity to negotiate individualized contracts that are bindable to digital identities stored on the network.
+
+To accomplish this, the Stackchain tasks the Compliance Stack with storing the defining rules of relations between different entities on the network. This includes, but is not limited to, custom contract rules and (the three) individual levels of privacy.
+
+
+
+
+By utilizing the Compliance function of the Stackchain, any digital entity can operate on the network (while maintaining a framework of policies that defines its actions on the Stackchain), thus enabling  digital entities to create a set of specific compliance schemes to abide by and meet regulatory demands.
+  
+Examples of Compliance:
+
+Finance: A financial institution can create custom contracts for deposits or transfers that limits accepted transfers to individuals or organizations that meets a specific criteria only. This can be their KYC rating, location (determined by DID) or amount.
+Non-Profit: A charity can create custom contracts to accept donations strictly from whitelisted entities who have an attested digital identity from a specific country.
+Resource Hiring: A research lab can choose to hire computational resources from a specific entity based on price, SLA rating, available resources and or beneficiary account standing.
+
+
+
